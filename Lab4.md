@@ -28,25 +28,25 @@ ls :
 **리눅스는 여러 사람이 한 서버를 사용하는 것을 전제로 만들어졌기 때문에 권한의 설정이 중요**  
 
 cp : copy files and directories ex) cp module.py backup_module  
--i : 만약 복사하는 파일의 이름이 존재하면 덮어씌움  
--file1 dir1 : file1을 디렉토리안으로 복사(같은 이름)  
---R dir1 dir2 : dirl1 -> dir2, dir2가 없으면 생성  
+- -i : 만약 복사하는 파일의 이름이 존재하면 덮어씌움  
+- file1 dir1 : file1을 디렉토리안으로 복사(같은 이름)  
+- -R dir1 dir2 : dirl1 -> dir2, dir2가 없으면 생성  
 
 mv : move fils and directories of rename them  
--file1 file2 : file2가 없으면 file1 -> file2, file2가 있으면 대체됨 **(경고 메세지 X)**
---i 겹치는 이름이 있을 때 덮어씌움(경고 메세지 O)
--file1 file2 dirl : file1과 file2를 dirl로 이동
--dir1 dir2 : 디렉토리에도 사용 가능(이름 변경)  
+- file1 file2 : file2가 없으면 file1 -> file2, file2가 있으면 대체됨 **(경고 메세지 X)**
+- -i 겹치는 이름이 있을 때 덮어씌움(경고 메세지 O)
+- file1 file2 dirl : file1과 file2를 dirl로 이동
+- dir1 dir2 : 디렉토리에도 사용 가능(이름 변경)  
 
 rm : delete files and directories, 지우면 휴지통의 개념 없이 **영구적으로 지워짐**  
---i : 경고 메세지 출력
---r dirl : 디렉토리 안에 모든 파일 삭제  
+- -i : 경고 메세지 출력
+- -r dirl : 디렉토리 안에 모든 파일 삭제  
 
 Wildcards
--* : All filenames
--g* : g로 시작하는 모든 파일 이름
--b*.txt : b로 시작하고 .txt로 끝나는 파일 이름
--Data??? : Data 뒤에 3글자가 더있는 파일 이름
+- * : All filenames
+- g* : g로 시작하는 모든 파일 이름
+- b*.txt : b로 시작하고 .txt로 끝나는 파일 이름
+- Data??? : Data 뒤에 3글자가 더있는 파일 이름
 **rm \*은 모든 파일 삭제로 특히 조심해서 사용** 
 
 help command : help, man(manual, 없을 수도 있음)  
