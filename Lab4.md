@@ -18,10 +18,10 @@ ls : list files and directories
 절대 경로 : ex) home/gunwoo/file  
 
 ls : 
--/name :  /name 안에 디렉토리 리스트를 보여줌
---l(long format) : 더 상세한 정보를 추가(권한, 소유자, 크기, 생성 날짜)  
---lh : 크기를 사람이 읽기 편한 k를 붙힘
---la : 모든 파일을 long format으로 출력
+- /name :  /name 안에 디렉토리 리스트를 보여줌
+- -l(long format) : 더 상세한 정보를 추가(권한, 소유자, 크기, 생성 날짜)  
+- -lh : 크기를 사람이 읽기 편한 k를 붙힘
+- -la : 모든 파일을 long format으로 출력
 **la처럼 option을 합쳐서 사용가능, 특정 디렉토리를 지정할 때 여러개도 가능 ex) ls /bin /etc**  
 
 *권한 맨 앞에 –면 파일(아니면 폴더), 리눅스는 확장자가 없는 파일이 존재, tab를 통해 자동 완성 기능 사용 가능, 키보드 위 방향키를 통해 과거 명령어 사용 가능, clear : 화면을 깨끗하게* 
