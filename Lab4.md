@@ -7,7 +7,7 @@ CLI(Command Line Interface) : 명령어를 외워야함, 키보드 위주, 상�
 GUI(Graphic User Interface) : 명령어 X, 마우스 위주, 상대적 느림, 자동화 X(Window)  
 
 ---  
-###Shell 
+### Shell 
 
 pwd : 현재 경로를 보여줌  
 cd : change directory  
@@ -28,9 +28,9 @@ ls :
 **리눅스는 여러 사람이 한 서버를 사용하는 것을 전제로 만들어졌기 때문에 권한의 설정이 중요**  
 
 cp : copy files and directories ex) cp module.py backup_module  
---i : 만약 복사하는 파일의 이름이 존재하면 덮어씌움
--file1 dir1 : file1을 디렉토리안으로 복사(같은 이름)
---R dir1 dir2 : dirl1 -> dir2, dir2가 없으면 생성, 
+-i : 만약 복사하는 파일의 이름이 존재하면 덮어씌움  
+-file1 dir1 : file1을 디렉토리안으로 복사(같은 이름)  
+--R dir1 dir2 : dirl1 -> dir2, dir2가 없으면 생성  
 
 mv : move fils and directories of rename them  
 -file1 file2 : file2가 없으면 file1 -> file2, file2가 있으면 대체됨 **(경고 메세지 X)**
