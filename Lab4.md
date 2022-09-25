@@ -43,9 +43,9 @@ rm : delete files and directories, 지우면 휴지통의 개념 없이 **영구
 - -r dirl : 디렉토리 안에 모든 파일 삭제  
 
 Wildcards
-- * : All filenames
-- g* : g로 시작하는 모든 파일 이름
-- b*.txt : b로 시작하고 .txt로 끝나는 파일 이름
+- \* : All filenames
+- g\* : g로 시작하는 모든 파일 이름
+- b\*.txt : b로 시작하고 .txt로 끝나는 파일 이름
 - Data??? : Data 뒤에 3글자가 더있는 파일 이름  
 
 **rm \*은 모든 파일 삭제로 특히 조심해서 사용** 
