@@ -46,7 +46,8 @@ Wildcards
 - * : All filenames
 - g* : g로 시작하는 모든 파일 이름
 - b*.txt : b로 시작하고 .txt로 끝나는 파일 이름
-- Data??? : Data 뒤에 3글자가 더있는 파일 이름
+- Data??? : Data 뒤에 3글자가 더있는 파일 이름  
+
 **rm \*은 모든 파일 삭제로 특히 조심해서 사용** 
 
 help command : help, man(manual, 없을 수도 있음)  
