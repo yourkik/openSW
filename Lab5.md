@@ -1,7 +1,7 @@
 ### I/O Redirection : 
 -Standard Output(기본 출력) : 기본적으로 출력은 스크린으로 뜨나 이를 조정 가능, ‘>’, ‘>>’는 이미 있는 파일 뒤에 추가하여 저장  
 ex) ls –lh > file_list.txt -> ls –lh 내용이 file_list.txt에 저장됨  
-**cat file_list.txt -> 특정 파일의 내용을 보여줌 ** 
+**cat file_list.txt -> 특정 파일의 내용을 보여줌** 
 
 -Standard Input : 파일을 입력하기 위해서 사용 ex) sort < words.txt > sorted_words.txt와 같이 동시에 사용 가능  
    Pipelines : ‘|’, 연결하는 것으로 ‘command1 | command2‘의 형태라면 command1에서 나온 출력이 command2로 바로 들어가게 됨  
