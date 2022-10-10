@@ -21,9 +21,12 @@ Git 구성 레벨 :
  
 Git command :
  $git init($는 명령어라는 의미) : 새로운 git repository 생성
- $git status : 현재 respository가 어떤 status인지 확인  
+ $git add filename : file을 Staging Area로 올림 
  $git add . : 모든 repository를 Staging Area로 올림  
+ $git status : 현재 respository가 어떤 status인지 확인  
+ **★파일을 Staging Area로 올린 후 commit을 하지 않고 수정 시 새로운 파일이 생성됨**
  $git rm —cached filename : Staging Area에서 내림(cached를 붙여야 사라지지 않고 내려옴)  
  $nano(editor) .gitignore : 입력된 파일을 무시(추천), !로 시작시 파일을 포함  
+ 
  $git commit –m “commit message” : 파일을 commit(저장)  
  $git branch –m master main : 현재 branch를 master -> branch로  
